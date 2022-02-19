@@ -490,11 +490,69 @@ body{
   left: auto;
 }
 
-@media screen (max-width: 1200px){
+@media (max-width: 1200px){
 	.bannerbottom::after {
 	  top: 20%;
 	}
 }
+
+@media (max-width: 992px){
+	.nav-wrapper{
+		display: none;
+	}
+	.banner-text h1 {
+		font-size: 35px;
+		line-height: 40px;
+	}
+	.product-img-slider {
+	width: 100%;
+
+}
+.product-details {
+	width: 100%;
+}
+.show {
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+}
+
+}
+@media (max-width: 768px){
+	.nav-wrapper{
+		display: none;
+	}
+	.button-primary{
+		width: 95px;
+	}
+	.button-secondary{
+		margin-right: 5px;
+		width: 70px;
+	}
+	.banner-text {
+	width: 100%;
+}
+.banner-text h1 {
+	font-size: 30px;
+	line-height: 37px;
+}
+.baner-img {
+	width: 100%;
+	padding-top: 20px;
+}
+.bannerbottom {
+	display: none;
+}
+.banner-section {
+	padding: 40px 0 70px;
+}
+.show {
+	width: 350px;
+	height: 350px;
+	margin: 0 auto;
+}
+}
+
 
 
 
